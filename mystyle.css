@@ -1,0 +1,49 @@
+body {
+	background: black;
+	font-family: helvetica;
+}
+
+h1 {
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#canvas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}
+
+.start-game {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	top: 0px;
+	margin-top: 200px;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+.blur{
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}

@@ -5,16 +5,22 @@
 	<script src='lib/movingBubble.js'></script>
 	<script src='lib/game.js'></script>
 	<script src='lib/gameView.js'></script>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 	
 <body>
-	<canvas width='700' height='500' id='canvas'></canvas>
+	<h1> Bubble Chain </h1>
+	
+	<div id='wrapper'>
+		<canvas width='700' height='500' id='canvas' class='blur'></canvas>
+		<p class='start-game'> Start Game </p>
+	</div>
+	
 	<script>
 		var canvas = $('#canvas');
 		var context = canvas.get(0).getContext('2d');
 		var game = new BubbleChain.Game(context, canvas);
 		var gameView = new BubbleChain.GameView(game);
-		gameView.start();
 	</script>
 </body>
 </html>
