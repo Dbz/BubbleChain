@@ -1,5 +1,6 @@
 <html>
 <head>
+	<script src="lib/jquery-2.1.1.min.js"></script> 
 	<script src='lib/util.js'></script>
 	<script src='lib/movingBubble.js'></script>
 	<script src='lib/game.js'></script>
@@ -9,10 +10,10 @@
 <body>
 	<canvas width='700' height='500' id='canvas'></canvas>
 	<script>
-		var canvas = document.getElementById('canvas');
-		var context = canvas.getContext('2d');
-		var game = new BubbleChain.Game(context);
-		var gameView = new BubbleChain.GameView(game, context);
+		var canvas = $('#canvas');
+		var context = canvas.get(0).getContext('2d');
+		var game = new BubbleChain.Game(context, canvas);
+		var gameView = new BubbleChain.GameView(game);
 		gameView.start();
 	</script>
 </body>
