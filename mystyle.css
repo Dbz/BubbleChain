@@ -1,12 +1,17 @@
 body {
 	background: black;
 	font-family: helvetica;
+	color: whitesmoke;
+	text-align: center;
 }
 
 h1 {
-	color: whitesmoke;
-	text-align: center;
 	padding-top: 40px;
+	margin-bottom : 0px;
+}
+
+h3 {
+	margin-top: 0;
 }
 
 #wrapper {
@@ -31,13 +36,29 @@ h1 {
 	margin-left: -60px;
 	top: 0px;
 	margin-top: 200px;
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(30, 30, 30, 0.7);
 	padding: 20px;
 	width: 100px;
 	text-align: center;
 	border-radius: 5px;
 	cursor: pointer;
-	
+}
+
+.start-game:hover {
+	background: rgba(30, 30, 30, 0.9);
+}
+
+.click-counter {
+	position: absolute;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	top: -10px;
+	right: 50%;
+	margin-right: -340px;
+	background: rgba(30, 30, 30, 0.7);
+	border-radius: 5px;
+	font-size: 25px	;
 }
 
 .blur{
