@@ -24,7 +24,7 @@
 			</p>
 		</div>
 		<p class='score'>
-			0
+			0pts
 		</p>
 	</div>
 	
@@ -32,7 +32,7 @@
 		var canvas = $('#canvas');
 		var context = canvas.get(0).getContext('2d');
 		var gameView;
-		var game = new BubbleChain.Game(context, canvas, gameView);
+		var game = new BubbleChain.Game(context, canvas);
 		gameView = new BubbleChain.GameView(game);
 	</script>
 </body>
