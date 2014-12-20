@@ -23,7 +23,7 @@
 				Click a bubble, and it will expand. If it touches another bubble, the other bubble will also expand. Pop all the bubbles!
 			</p>
 		</div>
-		<p class='click-counter'>
+		<p class='score'>
 			0
 		</p>
 	</div>
@@ -31,8 +31,9 @@
 	<script>
 		var canvas = $('#canvas');
 		var context = canvas.get(0).getContext('2d');
-		var game = new BubbleChain.Game(context, canvas);
-		var gameView = new BubbleChain.GameView(game);
+		var gameView;
+		var game = new BubbleChain.Game(context, canvas, gameView);
+		gameView = new BubbleChain.GameView(game);
 	</script>
 </body>
 </html>
