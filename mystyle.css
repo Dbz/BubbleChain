@@ -38,22 +38,32 @@ h3 {
 	border-radius: 4px;
 }
 
-.start-game {
+.start-menu {
 	display: block;
 	position: absolute;
 	left: 50%;
-	margin-left: -60px;
-	top: 0px;
+	margin-left: -160px;
+	top: -30px;
 	margin-top: 200px;
 	background: rgba(30, 30, 30, 0.7);
 	padding: 20px;
-	width: 100px;
+	width: 300px;
 	text-align: center;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-.start-game:hover {
+#title {
+	margin: 0;
+	padding: 0;
+}
+
+#text {
+	margin: 0;
+	padding: 0;
+}
+
+.start-menu:hover {
 	background: rgba(30, 30, 30, 0.9);
 }
 
