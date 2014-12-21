@@ -10,7 +10,8 @@ Click Bubbles and find out what happens!
 Levels
 ----
 
- + click all bubbles
- + click one color bubbles
- + number of clicks
- + timer speed challenge
+ + Lose 100pts per click
+ + Click a color
+ + Click as many as you can
+ + Negative bonus round
+ + Positive bonus round
