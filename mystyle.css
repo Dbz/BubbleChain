@@ -110,3 +110,7 @@ h3 {
   -ms-filter: blur(7px);
   filter: blur(7px);
 }
+
+.pointer {
+	cursor: pointer;
+}
