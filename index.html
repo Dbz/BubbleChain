@@ -1,41 +1,41 @@
 <html>
 <head>
-	<script src="lib/jquery-2.1.1.min.js"></script> 
-	<script src='lib/util.js'></script>
-	<script src='lib/movingBubble.js'></script>
-	<script src='lib/game.js'></script>
-	<script src='lib/gameView.js'></script>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="lib/jquery-2.1.1.min.js"></script> 
+  <script src='lib/util.js'></script>
+  <script src='lib/movingBubble.js'></script>
+  <script src='lib/game.js'></script>
+  <script src='lib/gameView.js'></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
-	
+  
 <body>
-	<h1> Bubble Chain </h1>
-	<h3> The clickable bubble game! </h3>
-	
-	<div id='wrapper'>
-		<canvas width='700' height='500' id='canvas' class='blur'></canvas>
-		<div class='start-menu'>
-			<h3> Level Instructions </h3>
-			<p id='text'></p>			
-			<br>
-			<h6 id='title'>
-				Click to begin!
-			</h3>
-		</div>
-		<p id='score'>
-			0pts
-		</p>
-		<div id='timer'>
-			0
-		</div>
-	</div>
-	
-	<script>
-		var canvas = $('#canvas');
-		var context = canvas.get(0).getContext('2d');
-		var gameView;
-		var game = new BubbleChain.Game(context, canvas);
-		gameView = new BubbleChain.GameView(game);
-	</script>
+  <h1> Bubble Chain </h1>
+  <h3> The clickable bubble game! </h3>
+  
+  <div id='wrapper'>
+    <canvas width='700' height='500' id='canvas' class='blur'></canvas>
+    <div class='start-menu'>
+      <h3> Level Instructions </h3>
+      <p id='text'></p>      
+      <br>
+      <h6 id='title'>
+        Click to begin!
+      </h3>
+    </div>
+    <p id='score'>
+      0pts
+    </p>
+    <div id='timer'>
+      0
+    </div>
+  </div>
+  
+  <script>
+    var canvas = $('#canvas');
+    var context = canvas.get(0).getContext('2d');
+    var gameView;
+    var game = new BubbleChain.Game(context, canvas);
+    gameView = new BubbleChain.GameView(game);
+  </script>
 </body>
 </html>

@@ -1,12 +1,12 @@
 body {
-	background: black;
-	font-family: helvetica;
-	color: whitesmoke;
-	text-align: center;
-	
-	/*	Turn off selection		*/
-	
-	-webkit-touch-callout: none;
+  background: black;
+  font-family: helvetica;
+  color: whitesmoke;
+  text-align: center;
+  
+  /*  Turn off selection    */
+  
+  -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -15,85 +15,85 @@ body {
 }
 
 h1 {
-	padding-top: 40px;
-	margin-bottom : 0px;
+  padding-top: 40px;
+  margin-bottom : 0px;
 }
 
 h3 {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 #wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 #canvas {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 45px;
-	border: 1px solid #CCC;
-	border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
 }
 
 .start-menu {
-	display: block;
-	position: absolute;
-	left: 50%;
-	margin-left: -160px;
-	top: -30px;
-	margin-top: 200px;
-	background: rgba(30, 30, 30, 0.7);
-	padding: 20px;
-	width: 300px;
-	text-align: center;
-	border-radius: 5px;
-	cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  top: -30px;
+  margin-top: 200px;
+  background: rgba(30, 30, 30, 0.7);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 #title {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #text {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .start-menu:hover {
-	background: rgba(30, 30, 30, 0.9);
+  background: rgba(30, 30, 30, 0.9);
 }
 
 #score {
-	position: absolute;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	top: -10px;
-	right: 50%;
-	margin-right: -340px;
-	
-	background: rgba(30, 30, 30, 0.7);
-	border-radius: 5px;
-	font-size: 25px;
+  position: absolute;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: -10px;
+  right: 50%;
+  margin-right: -340px;
+  
+  background: rgba(30, 30, 30, 0.7);
+  border-radius: 5px;
+  font-size: 25px;
 }
 
 #timer {
-	display: none;
-	position: absolute;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	top: 10px;
-	right: 50%;
-	margin-right: -20px;
-	
-	background: rgba(30, 30, 30, 0.7);
-	border-radius: 5px;
-	font-size: 25px;
+  display: none;
+  position: absolute;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 10px;
+  right: 50%;
+  margin-right: -20px;
+  
+  background: rgba(30, 30, 30, 0.7);
+  border-radius: 5px;
+  font-size: 25px;
 }
 
 .blur{
@@ -112,5 +112,5 @@ h3 {
 }
 
 .pointer {
-	cursor: pointer;
+  cursor: pointer;
 }
