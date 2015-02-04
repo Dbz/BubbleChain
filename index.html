@@ -34,8 +34,8 @@
     var canvas = $('#canvas');
     var context = canvas.get(0).getContext('2d');
     var gameView;
-    var game = new BubbleChain.Game(context, canvas);
-    gameView = new BubbleChain.GameView(game);
+    var game = new BubbleChain.Game(context, canvas, gameView);
+    gameView = new BubbleChain.GameView(context, game);
   </script>
 </body>
 </html>
